@@ -1,0 +1,157 @@
+
+
+
+     *{
+	box-sizing:border-box;
+}
+
+/* table*/
+#fish{
+       font-family:papyrus,copperplate,fantasy;
+	   width:100%;
+	   height:800px;
+	   
+	 }
+	 
+table,th,td{border-collapse:collapse;
+            border:8px solid #fff
+           }
+      
+th{background-color:#fbf;
+    color:#00c;
+	font-weight:bold;
+	font-variant:small-caps;
+   }
+   
+#fish th:hover{background-color:#fbc;}
+   
+tr:hover{background-color:#606060;}
+
+
+tr:nth-child(even){background-color:#909090;}
+
+#fishes p {font-family:garamond,serif;
+           font-variant: small-caps;
+		   font-size:40px;
+		  
+}
+
+      /* header*/
+header{
+	
+	position:relative;
+}
+
+.pseudo{
+	opacity:0.6;
+	width:100%;
+	border:10px solid rgba(0, 0, 0, 1.0);
+}
+
+.SBB{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	font-size:50px;
+}
+
+.UZI{
+	position:absolute;
+	bottom:20px;
+	left:15px;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+}
+		/*	Nav Css*/
+		
+nav{
+  text-align:center;
+  list-style-type:none;
+  position:sticky;
+  top:0;
+  
+}
+
+
+.block{
+	float:left;
+	width:25%;
+	background-color:#101010;
+	padding: 15px;
+
+	
+	
+
+}
+
+nav .block .bottom{
+	      display:block;
+		  padding: 10px;
+          color:#fff;
+		  text-decoration: none;		  
+		   
+		   
+}
+
+.bottom:hover{
+	      background-color:yellow;
+		  color:#000000;
+}
+
+.bottom:active{
+	     background-color:green;
+	
+}
+
+		/* little green bitch*/	   
+		   
+div.fixed {
+	       display:none;
+           position:abolute;
+		   top:0;
+		   background-color:#099009;
+          }
+		  
+		  /* my skill css*/
+.nana{
+	display:inline-block;
+    
+	
+}
+/*
+.baba::after{
+
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+	*/
+
+		
+	
+/* DROPDOWN 1*/
+.drod{
+	position:relative;
+	display:inline-block;
+}
+
+.drodcon{
+	opacity:0.6;
+	display:none;
+	position: absolute;
+	background-color: #f8f8f8;
+	  padding:50px;
+	  color:#000000;
+	  min-width:70px;
+	  z-index:1;
+}
+
+.drod:hover .drodcon{
+	display:block;
+	background-color:red;
+	color:blue;
+}
